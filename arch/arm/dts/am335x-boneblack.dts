@@ -85,6 +85,10 @@
 	};
 };
 
+&tps {
+	/delete-property/ ti,pmic-shutdown-controller;
+};
+
 &rtc {
 	system-power-controller;
 };
